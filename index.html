@@ -11,35 +11,47 @@
   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="grid">
-    <div class="unit xs-1 m-1-4 l-1-4">
-      <h1>
-        <img src="images/logo.svg" alt="">
-      </h1>
-    </div>
-    <div class="unit xs-1 m-3-4 l-3-4">
-      <img src="images/search.svg" alt="">
+  <div class="wrapper-grid-1">
+    <div class="grid dark">
+      <div class="unit xs-1 m-1-4 l-1-4">
+        <h1>
+          <img src="images/logo.svg" alt="Playground Finder">
+        </h1>
+      </div>
+      <div class="unit xs-1 m-3-4 l-3-4">
+        <form method="post" action="https://formspree.io/vanshitagandhi98@gmail.com">
+          <label for="search">Search</label>
+          <input id="search" required>
+          <!-- <img src="images/search.svg" alt=""> -->
+        </form>
+      </div>
     </div>
   </div>
 
   <div class="grid">
-    <div class="unit xs-1 m-1-4 l-1-4">
+    <div class="unit gutter-1-2 medium xs-1 m-1-4 l-1-4">
       <h2>Nearest playgrounds</h2>
       <ul>
-        <li class="list-group">
-          <div>373<br>Distance<br>0.75 km</div>
+        <li class="list-group none">
+          <div class="gutter-1-4 pad-t-1-4 light bold">373</div>
+          <div class="gutter-1-4 light italic milli">Distance</div>
+          <div class="gutter-1-4 pad-b-1-4 light push">0.75 km</div>
         </li>
         <li class="list-group">
-          <div>1700<br>Distance<br>2.58 km</div>
+          <div class="gutter-1-4 pad-t-1-4 light bold">1700</div>
+          <div class="gutter-1-4 light italic milli">Distance</div>
+          <div class="gutter-1-4 pad-b-1-4 light push">2.58 km</div>
         </li>
         <li class="list-group">
-          <div>960<br>Distance<br>3.03 km</div>
+          <div class="gutter-1-4 pad-t-1-4 light bold">960</div>
+          <div class="gutter-1-4 light italic milli">Distance</div>
+          <div class="gutter-1-4 pad-b-1-4 light push">3.03 km</div>
         </li>
       </ul>
     </div>
     <div class="unit xs-1 m-3-4 l-3-4">
       <table>
-        <caption class="bold not-italic peta">Playgrounds in the city</caption>
+        <caption class="bold not-italic giga">Playgrounds in the city</caption>
         <thead>
           <tr>
             <th scope="col">Park ID</th>
@@ -307,7 +319,7 @@
           </tr>
 
           <tr>
-            <th scope="row">806</th>
+            <th scope="row">65</th>
             <td>Play structure</td>
             <td>Toddler</td>
             <td>No</td>
@@ -318,7 +330,7 @@
           </tr>
 
           <tr>
-            <th scope="row">1032</th>
+            <th scope="row">609</th>
             <td>Play area</td>
             <td>Junior</td>
             <td>No</td>

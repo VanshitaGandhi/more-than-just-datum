@@ -2,6 +2,35 @@ html {
   font-family: "IBM Plex Sans", sans-serif;
 }
 
+.dark {
+  background-color: #ddd;
+}
+
+.medium {
+  background-color: #efefef;
+}
+
+.light {
+  background-color: #fff;
+}
+
+table {
+  min-width: 200px;
+}
+
+.wrapper-grid-1 {
+  height: 4.5em;
+}
+
+.none {
+  list-style-type: none;
+}
+
+/* img {
+  display: block;
+  width:100%;
+} */
+
 @media only screen and (min-width: 60em) {
 
   .table-wrapper {
