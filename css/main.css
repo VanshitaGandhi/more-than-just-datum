@@ -19,22 +19,57 @@ table {
 }
 
 .wrapper-grid-1 {
-  height: 4.5em;
+  height: 5.6em;
 }
 
 .none {
   list-style-type: none;
 }
 
-/* img {
-  display: block;
-  width:100%;
-} */
+.logo {
+  max-width: 200px;
+}
+
+.table-wrapper table {
+  min-width: 45em;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .wrapper-grid-1 {
+    height: 5.5em;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .wrapper-grid-1 {
+    height: 2.5em;
+  }
+
+}
 
 @media only screen and (min-width: 60em) {
 
   .table-wrapper {
     overflow: visible;
+  }
+
+  .wrapper-grid-1 {
+    height: 2.5em;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .table-wrapper {
+    overflow: visible;
+  }
+
+  .wrapper-grid-1 {
+    height: 4em;
   }
 
 }
